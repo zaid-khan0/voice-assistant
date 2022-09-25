@@ -12,7 +12,7 @@ voices=engine.getProperty('voices')
 engine.setProperty('voice',voices[1].id)
 engine.setProperty('rate',150)
 
-#t=datetime.datetime.today()
+#t=datetime.datetime.today()g
 
 def speak(command):
     engine.say(command)
