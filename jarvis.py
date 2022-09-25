@@ -100,7 +100,7 @@ if __name__=="__main__":
             speak(calendar.day_name[day])
 
         elif 'who made you' in query:
-            speak("the very intelligent ,very handsome guy named zaid made me")
+            speak("i was made by a very intelligent boy zaid")
 
         elif 'how are you' in query:
             speak("i am fine")
