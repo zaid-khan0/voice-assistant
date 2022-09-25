@@ -1,0 +1,6 @@
+f=open("file.txt","rt")
+content=f.read()
+print(content)
+w=open("file.txt","a")
+w.write("hello")
+f.close()
